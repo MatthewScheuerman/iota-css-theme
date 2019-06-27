@@ -36,7 +36,6 @@
   },
   "dependencies": {
     "normalize.css": "^8.0.1",
-    "style-dictionary": "^2.8.0" // npm install -D style-dictionary
-    // Do we need gulp? ran npm install gulp
+    "style-dictionary": "^2.8.0"
   }
 }

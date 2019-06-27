@@ -1,3 +1,10 @@
+Another note for package.json
+
+ // npm install -D style-dictionary
+    // Do we need gulp? ran npm install gulp
+
+
+
 variables collection before converting to Amazon Style Dictionary
 
 $min-width: 375px;
