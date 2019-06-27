@@ -1,0 +1,61 @@
+variables collection before converting to Amazon Style Dictionary
+
+$min-width: 375px;
+$max-width: 1495px;
+
+$transition-duration: 0.3s;
+$transition-duration-quick: 0.1s;
+
+$blueberry;
+
+Note: use opinionated colors instead of relying on SCSS mixins/functions
+border-color: darken($blueberry, 10%);
+background-color: darken($blueberry, 10%);
+border-color: $white;
+background-color: rgba(255, 255, 255, 0.2);
+
+
+    color: $gunmetal-grey;
+
+    $tealish: #20a49d;
+$jade: #1e9a93;
+$blueberry: #603f98;
+
+body {
+  --tealish: #{$tealish};
+  --jade: #{$jade};
+  --blueberry: #{$blueberry};
+}
+
+.tealish {
+  color: $tealish;
+}
+
+.jade {
+  color: $jade;
+}
+
+.blueberry {
+  color: $blueberry;
+}
+
+.tealish-background {
+  background-color: $tealish;
+}
+
+.jade-background {
+  background-color: $jade;
+}
+
+.blueberry-background {
+  background-color: $blueberry;
+}
+
+$black: #1c1e21;
+$white: #ffffff;
+$gunmetal-grey: #3f3f3f;
+$body-copy: #4f4f4f;
+$brown-grey: #8e8e8e;
+$dark-grey: #1c1e21;
+$light-grey: #c4c4c4;
+$sand-grey: #f3f2f1;

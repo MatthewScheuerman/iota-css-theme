@@ -52,6 +52,7 @@
 
   &:focus {
     &:enabled {
+      // TKTKTK MATTHEW NOT A11Y COMPATIBLE
       outline: none;
     }
   }

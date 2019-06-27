@@ -6,6 +6,8 @@
 //
 // Styleguide Molecules.Card
 
+// TKTKTK MATTHEW: Note: With the way that these styles have been created, card__link is not a child of card__wrapper or card__label and therefore not using true BEM
+
 .card__link {
   display: block;
   position: relative;
