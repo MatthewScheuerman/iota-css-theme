@@ -29,6 +29,7 @@ View the Styleguide at <https://iota-css-theme.dag.sh>
 To build the package run:
 
 ```shell
+npm install
 npm run build
 ```
 
