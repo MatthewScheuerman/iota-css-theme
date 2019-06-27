@@ -1,5 +1,9 @@
 # iota-css-theme
 
+Matthew Scheuerman's notes: I will be adding a json based token generator, adding components, suggesting naming changes,and potentially suggesting theming and night/dark mode. 
+
+The rest of the README is as before. 
+
 ## Usage
 
 In your main React file, you could do :
