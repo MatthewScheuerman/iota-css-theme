@@ -78,3 +78,4 @@ StyleDictionary.buildAllPlatforms();
 gulp.task('build', shell.task(['npm run build']));
 
 gulp.task('default', gulp.parallel('build'));
+

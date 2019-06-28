@@ -30,10 +30,19 @@ To build the package run:
 
 ```shell
 npm install
+npm install gulp
+npm install gulp-shell
 npm run build
 ```
 
+To run Amazon Style Dictionary, run
+
+```shell
+gulp
+```
+
 or to build and then serve the style guide locally:
+
 
 ```shell
 npm run build-serve
