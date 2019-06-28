@@ -41,7 +41,7 @@ To run Amazon Style Dictionary, run
 gulp
 ```
 
-or to build and then serve the style guide locally:
+ to build and then serve the style guide locally:
 
 
 ```shell
