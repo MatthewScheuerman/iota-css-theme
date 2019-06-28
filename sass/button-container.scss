@@ -6,6 +6,9 @@
 //
 // Styleguide Molecules.Button Container
 
+// TKTKTK MATTHEW need to test on how to get away from using !important
+// when it's not needed
+
 .button-container {
   display: flex;
   flex-direction: row;
@@ -30,7 +33,7 @@
       text-align: center;
     }
   }
-
+  // TKTKTK MATTHEW SHOULDN'T THIS BE --center ?
   &.button-container__center {
     justify-content: center;
 
@@ -39,7 +42,7 @@
       margin-left: 5px !important;
     }
   }
-
+  // TKTKTK MATTHEW SHOULDN'T THIS BE --right ?
   &.button-container__right {
     justify-content: flex-end;
 
@@ -49,4 +52,3 @@
     }
   }
 }
-

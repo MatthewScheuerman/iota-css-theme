@@ -16,7 +16,8 @@
 
 $black: #000000 !default;
 $white: #ffffff !default;
-// TKTKTK MATTHEW $btktktkody-copy passes AAA compliancy contrast check with #4f4f4f against a #ffffff background, with all suggested font weights
+// TKTKTK MATTHEW $body-copy-onlt passes AAA compliancy contrast check with #4f4f4f against a #ffffff background, with all suggested font weights
+// note that I am using onlt (on light) so that ondk (on dark) in the future
 $body-copy-onlt: $color-grey-steel-40 !default;
 $grey-steel: $color-grey-steel !default;
 $brown-grey: $color-grey-warm !default;
@@ -24,17 +25,8 @@ $dark-grey: $color-grey-cool-80 !default;
 $light-grey: $color-grey-30 !default;
 $sand-grey: $color-grey-warm-30 !default;
 
-// $color-grey-10: #fafafa;
-// $color-grey-15: #f6f6f6;
-// $color-grey-20: #ededed;
-// $color-grey-22: #e6e6e6;
-// $color-grey-30: #c4c4c4;
+// TKTKTK MATTHEW NEED TO DEFINE THE REST OF THE COLORS HERE
 $grey-60: $color-grey-60 !default;
-// $color-grey-75: #2e2e2e;
-// $color-grey-steel: #3f3f3f;
-// $color-grey-steel-40: #4f4f4f;
-// $color-grey-warm: #8e8e8e;
-// $color-grey-warm-30: #f3f2f1;
-// $color-grey-cool-80: #1c1e21;
+
 
 

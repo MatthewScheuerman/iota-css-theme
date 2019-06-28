@@ -67,9 +67,6 @@ const StyleDictionary = require('style-dictionary').extend({
           }
         }]
       }
-
-
-      // ...
     }
   });
   
