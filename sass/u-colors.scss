@@ -1,0 +1,104 @@
+
+body {
+  --teal: $teal;
+  --jade: $jade;
+  --blueberry: $blueberry;
+  --black: #{$black};
+  --white: #{$white};
+  --grey-steel: #{$color-grey-steel};
+  --body-copy-onlt: #{$body-copy-onlt};
+  --brown-grey: #{$brown-grey};
+  --dark-grey: #{$grey-cool-80};
+  --light-grey: #{$color-grey-30};
+  --sand-grey: #{$color-grey-warm};
+}
+
+// TKTKTK NEED TO REWRITE ALL OF THIS TO USE A MIXIN THAT GRABS FROM A VARIABLES MAP
+
+.teal {
+  color: $teal;
+}
+
+.jade {
+  color: $jade;
+}
+
+.blueberry {
+  color: $blueberry;
+}
+
+.black {
+  color: $black;
+}
+
+.white {
+  color: $white;
+}
+
+.grey-steel {
+  color: $grey-steel;
+}
+
+.grey-steel-40 {
+  color: $color-grey-steel-40;
+}
+
+.body-copy-onlt {
+  color: $body-copy-onlt;
+}
+
+.brown-grey {
+  color: $brown-grey;
+}
+
+.dark-grey {
+  color: $dark-grey;
+}
+
+.light-grey {
+  color: $light-grey;
+}
+
+.sand-grey {
+  color: $sand-grey;
+}
+
+.background-teal {
+  background-color: $teal;
+}
+
+.background-jade {
+  background-color: $jade;
+}
+
+.background-blueberry {
+  background-color: $blueberry;
+}
+
+.background-black {
+  background-color: $black;
+}
+
+.background-white {
+  background-color: $white;
+}
+
+.background-grey-steel {
+  background-color: $grey-steel;
+}
+
+.-background-brown-grey {
+  background-color: $brown-grey;
+}
+
+.-background-dark-grey {
+  background-color: $dark-grey;
+}
+
+.-background-light-grey {
+  background-color: $light-grey;
+}
+
+.-background-sand-grey {
+  background-color: $sand-grey;
+}

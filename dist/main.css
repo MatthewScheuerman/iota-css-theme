@@ -306,6 +306,10 @@ template {
 [hidden] {
   display: none; }
 
+/**
+ * Do not edit directly
+ * Generated on Fri, 28 Jun 2019 06:04:37 GMT
+ */
 @media (max-width: 1024px) {
   .desktop-up-hidden {
     display: none !important; } }
@@ -329,87 +333,6 @@ template {
 @media (min-width: 514px) {
   .phone-up-hidden {
     display: none !important; } }
-
-body {
-  --tealish: #20a49d;
-  --jade: #1e9a93;
-  --blueberry: #603f98; }
-
-.tealish {
-  color: #20a49d; }
-
-.jade {
-  color: #1e9a93; }
-
-.blueberry {
-  color: #603f98; }
-
-.tealish-background {
-  background-color: #20a49d; }
-
-.jade-background {
-  background-color: #1e9a93; }
-
-.blueberry-background {
-  background-color: #603f98; }
-
-body {
-  --black: #1c1e21;
-  --white: #ffffff;
-  --gunmetal-grey: #3f3f3f;
-  --body-copy: #4f4f4f;
-  --brown-grey: #8e8e8e;
-  --dark-grey: #1c1e21;
-  --light-grey: #c4c4c4;
-  --sand-grey: #f3f2f1; }
-
-.black {
-  color: #1c1e21; }
-
-.white {
-  color: #ffffff; }
-
-.gunmetal-grey {
-  color: #3f3f3f; }
-
-.body-copy {
-  color: #4f4f4f; }
-
-.brown-grey {
-  color: #8e8e8e; }
-
-.dark-grey {
-  color: #1c1e21; }
-
-.light-grey {
-  color: #c4c4c4; }
-
-.sand-grey {
-  color: #f3f2f1; }
-
-.black-background {
-  background-color: #1c1e21; }
-
-.white-background {
-  background-color: #ffffff; }
-
-.gunmetal-grey-background {
-  background-color: #3f3f3f; }
-
-.body-copy-background {
-  background-color: #4f4f4f; }
-
-.brown-grey-background {
-  background-color: #8e8e8e; }
-
-.dark-grey-background {
-  background-color: #1c1e21; }
-
-.light-grey-background {
-  background-color: #c4c4c4; }
-
-.sand-grey-background {
-  background-color: #f3f2f1; }
 
 body {
   --warning: #ffc107;
@@ -718,7 +641,11 @@ blockquote,
   font-weight: bold;
   line-height: 1.5;
   text-decoration: none;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  user-select: none;
+  outline: none; }
   .button.button--long {
     word-break: break-all;
     word-break: break-word; }
@@ -728,7 +655,7 @@ blockquote,
     text-decoration: none;
     cursor: pointer; }
   .button:focus:enabled {
-    outline: none; }
+    outline: 2px solid #ffffff; }
   .button:disabled {
     opacity: 0.5;
     cursor: default;
@@ -756,6 +683,14 @@ blockquote,
     border-color: #493074;
     background-color: #493074; }
 
+.button__ghost--primary {
+  border-color: #603f98;
+  background-color: transparent;
+  color: #ffffff; }
+  .button__ghost--primary:hover:not([disabled]) {
+    border-color: #493074;
+    background-color: #493074; }
+
 .button--secondary {
   border-color: #603f98;
   background-color: transparent;
@@ -764,11 +699,27 @@ blockquote,
     border-color: #493074;
     background-color: transparent; }
 
+.button__ghost--secondary {
+  border-color: #603f98;
+  background-color: transparent;
+  color: #603f98; }
+  .button__ghost--secondary:hover:not([disabled]) {
+    border-color: #493074;
+    background-color: transparent; }
+
 .button--tertiary {
   border-color: #ffffff;
   background-color: transparent;
   color: #ffffff; }
   .button--tertiary:hover:not([disabled]) {
+    border-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.2); }
+
+.button__ghost--tertiary {
+  border-color: #ffffff;
+  background-color: transparent;
+  color: #ffffff; }
+  .button__ghost--tertiary:hover:not([disabled]) {
     border-color: #ffffff;
     background-color: rgba(255, 255, 255, 0.2); }
 
@@ -818,7 +769,7 @@ blockquote,
   height: 60px;
   border: 1px solid #ffffff;
   border-radius: 6px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #ffffff;
   line-height: 1; }
   @media (max-width: 514px) {
     .form .fieldset .select-wrapper, .select-wrapper {
@@ -2440,7 +2391,7 @@ textarea,
     align-items: center;
     justify-content: space-around;
     padding: 15px 16px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #ffffff;
     color: #ffffff; }
     @media (min-width: 768px) {
       .sub-header__wrapper .sub-header {
@@ -3094,7 +3045,7 @@ table,
   padding-bottom: 8px;
   font-size: 15px;
   font-size: 0.9375rem;
-  color: #3e3e3e;
+  color: #3f3f3f;
   font-stretch: normal;
   font-style: normal;
   font-weight: 600;
@@ -3114,7 +3065,7 @@ table,
       color: #1e9a93;
       font-weight: bold; }
     .table-of-contents .table-of-contents__section .table-of-contents-list-item a {
-      color: #3e3e3e;
+      color: #3f3f3f;
       font-size: 15px;
       font-size: 0.9375rem;
       font-stretch: normal;

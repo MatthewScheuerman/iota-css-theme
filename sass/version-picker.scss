@@ -53,7 +53,7 @@
 }
 
 .version-picker__current {
-  color: $gunmetal-grey;
+  color: $grey-steel;
 
   @include font-size(16px);
 
@@ -118,13 +118,13 @@
   appearance: none;
 
   option {
-    color: $black;
+    color: $dark-grey;
 
     @include font-size(16px);
   }
 
   optgroup {
-    color: $gunmetal-grey;
+    color: $grey-steel;
 
     @include font-size(16px);
   }
@@ -141,7 +141,7 @@
   }
 
   &:-moz-focusring * {
-    color: $black;
+    color: $dark-grey;
     text-shadow: none;
   }
 }

@@ -69,7 +69,7 @@
       border: 0;
       opacity: 1;
       background: none;
-      color: $black;
+      color: $dark-grey;
 
       @include phone-down {
         top: 18px;
@@ -107,8 +107,8 @@
 
       section {
         div {
-          // TKTKTK MATTHEW TEALISH SHOULD BE SOMETHING LIKE BRAND-TEAL-20 OR BRAND-TEAL-80
-          border: 8px solid $tealish !important;
+          // TKTKTK MATTHEW teal SHOULD BE SOMETHING LIKE BRAND-TEAL-20 OR BRAND-TEAL-80
+          border: 8px solid $teal !important;
           box-shadow: none !important;
         }
       }

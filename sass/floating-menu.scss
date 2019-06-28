@@ -24,7 +24,7 @@
     transform-origin: left center;
     transition: inherit;
     transition-property: transform, color, border-color;
-    color: $black;
+    color: $dark-grey;
     @include font-size(17px);
     font-stretch: normal;
     font-style: normal;
@@ -35,10 +35,10 @@
 
   &:hover,
   &.floating-menu__item--selected {
-    border-color: $tealish;
+    border-color: $teal;
 
     a {
-      color: $tealish;
+      color: $teal;
     }
   }
 

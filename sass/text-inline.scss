@@ -18,7 +18,7 @@
 // Styleguide Atoms.Text Inline
 
 .text-inline {
-  color: $body-copy;
+  color: $body-copy-onlt;
   @include font-size(17px);
   font-stretch: normal;
   font-style: normal;
@@ -28,12 +28,12 @@
 }
 
 .text-inline--strong {
-  color: $black;
+  color: $dark-grey;
   font-weight: 600;
 }
 
 .text-inline--emphasis {
-  color: $black;
+  color: $dark-grey;
 }
 
 .text-inline--bold {
@@ -62,7 +62,7 @@
 }
 
 .text-inline--quotation {
-  color: $black;
+  color: $dark-grey;
   font-style: italic;
 }
 

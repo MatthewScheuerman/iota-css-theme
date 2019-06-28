@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Fri, 28 Jun 2019 06:04:37 GMT
+-->
+<resources>
+  <color name="color_brand_teal_base">#ff20a49d</color>
+  <color name="color_brand_jade_base">#ff1e9a93</color>
+  <color name="color_brand_blueberry_55">#ff4e2c88</color>
+  <color name="color_brand_blueberry_base">#ff603f98</color>
+  <color name="color_grey_10">#fffafafa</color>
+  <color name="color_grey_15">#fff6f6f6</color>
+  <color name="color_grey_20">#ffededed</color>
+  <color name="color_grey_22">#ffe6e6e6</color>
+  <color name="color_grey_30">#ffc4c4c4</color>
+  <color name="color_grey_60">#ff3f3f3f</color>
+  <color name="color_grey_75">#ff2e2e2e</color>
+  <color name="color_grey_steel">#ff3f3f3f</color>
+  <color name="color_grey_steel_40">#ff4f4f4f</color>
+  <color name="color_grey_warm">#ff8e8e8e</color>
+  <color name="color_grey_warm_30">#fff3f2f1</color>
+  <color name="color_grey_cool_80">#ff1c1e21</color>
+  <color name="color_feedback_yellow">#ffffc107</color>
+  <color name="color_feedback_red">#ffdc3545</color>
+  <color name="color_feedback_green">#ff28a745</color>
+  <color name="color_feedback_blue">#ff17a2b8</color>
+  
+</resources>

@@ -72,7 +72,7 @@
   .navigator__label {
     @include font-size(18px);
 
-    color: $tealish;
+    color: $teal;
     font-weight: normal;
 
     @include desktop {
@@ -85,7 +85,7 @@
   .navigator__title {
     @include font-size(18px);
 
-    color: $body-copy;
+    color: $body-copy-onlt;
     font-weight: normal;
 
     @include desktop {

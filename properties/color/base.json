@@ -1,0 +1,36 @@
+{
+    "color": {
+      "brand": {
+        "teal": {
+          "base" : { "value": "#20a49d"}
+        },
+        "jade": {
+            "base" : { "value": "#1e9a93"}
+        },
+        "blueberry": {
+            "55" : { "value": "#4e2c88"},
+            "base" : { "value": "#603f98"}
+        }
+      },
+      "grey": {
+        "steel" : { "value": "#3f3f3f"},
+        "steel-40" : { "value": "#4f4f4f"},
+        "warm" : { "value" : "#8e8e8e"},
+        "warm-30" : { "value" : "#f3f2f1"},
+        "cool-80" : { "value" : "#1c1e21"},
+        "75" : { "value" : "#2e2e2e"},
+        "60" : { "value" : "#3f3f3f"},
+        "30" : { "value" : "#c4c4c4"},
+        "22" : { "value" : "#e6e6e6"},
+        "20" : { "value" : "#ededed"},
+        "15" : { "value" : "#f6f6f6"},
+        "10" : { "value" : "#fafafa"}
+      },
+      "feedback": {
+        "yellow" : { "value": "#ffc107"},
+        "red" : { "value": "#dc3545"},
+        "green" : { "value": "28a745"},
+        "blue" : { "value": "#17a2b8"}
+      }
+    }
+}

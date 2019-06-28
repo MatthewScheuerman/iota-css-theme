@@ -22,7 +22,7 @@
   h1 {
     margin-top: 32px;
     margin-bottom: 16px;
-    color: $black;
+    color: $dark-grey;
     font-family: $font-primary;
 
     @include font-size(32px);
@@ -32,7 +32,7 @@
 
   h2 {
     margin: 0;
-    color: $black;
+    color: $dark-grey;
     font-family: $font-primary;
 
     @include font-size(28px);
@@ -47,7 +47,7 @@
     right: 20px;
     border: 0;
     background: none;
-    color: $black;
+    color: $dark-grey;
 
     @include font-size(20px);
 
@@ -127,7 +127,7 @@
       transition-property: border, color;
       border: 0;
       background: none;
-      color: $body-copy;
+      color: $body-copy-onlt;
 
       @include font-size(17px);
 
@@ -182,6 +182,7 @@
 
     &:hover {
       &:not([disabled]) {
+        // TKTKTK MATTHEW NEED TO REPLACE WITH OPINIONATED COLORS
         border-color: darken($jade, 10%);
         background-color: darken($jade, 10%);
       }

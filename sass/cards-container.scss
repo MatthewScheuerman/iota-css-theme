@@ -12,7 +12,6 @@
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
-  // TKTKTK MATTHEW: PADDING SHOULD BE PART OF A SYSTEM
   padding: 50px 0px 20px;
   background-color: $sand-grey;
 
@@ -24,7 +23,6 @@
     justify-content: space-between;
 
     .card {
-      // TKTKTK WIDTH SHOULD BE DEFINED BY THE CONTAINER UTILITY CLASSES INSTEAD OF BY ITSELF
       width: calc(50% - 10px);
     }
   }

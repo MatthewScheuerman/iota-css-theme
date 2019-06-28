@@ -1,0 +1,10 @@
+{
+    "device": {
+        "width": {
+            "phone" : { "value": "514px"},
+            "tablet" : { "value": "768px"},
+            "desktop": { "value": "1024px"},
+            "desktop-narrow": { "value": "1180px" } 
+        }
+    }
+}

@@ -14,7 +14,7 @@ $side-menu-right-padding: 24px;
 .side-menu {
   width: 311px;
   height: 100%;
-  background-color: $gunmetal-grey;
+  background-color: $grey-steel;
 
   &.side-menu__hidden {
     position: fixed;
@@ -97,7 +97,7 @@ $side-menu-right-padding: 24px;
 
 .side-menu__group--selected {
   .side-menu__heading {
-    color: $tealish;
+    color: $teal;
   }
 }
 
@@ -197,7 +197,7 @@ $side-menu-right-padding: 24px;
     }
 
     .side-menu-item--active {
-      color: $tealish;
+      color: $teal;
       font-weight: 600;
     }
   }

@@ -16,9 +16,9 @@
     height: 50px;
     padding-right: 18px;
     padding-left: 18px;
-    border-bottom: 2px solid $tealish;
+    border-bottom: 2px solid $teal;
     // TKTKTK MATTHEW THIS SHOULD BE CHANGED TO A COLOR FROM MIXINS OR AT LEAST A TOKEN. 
-    background-color: #fafafa;
+    background-color: $color-grey-10;
     cursor: pointer;
 
     .drop-selector-title__text {
@@ -52,7 +52,7 @@
     list-style: none;
     transition: $transition-duration ease-out;
     transition-property: max-height;
-    border: 1px solid #ededed;
+    border: 1px solid $color-grey-20;
     border-top-width: 0px;
     border-bottom-width: 0px;
     background-color: $white;
@@ -77,7 +77,7 @@
 
       &:hover,
       &.drop-selector-list-item__selected {
-        background-color: #fafafa;
+        background-color: $color-grey-10;
 
         a {
           color: $jade;
@@ -87,7 +87,7 @@
     }
 
     .drop-selector-list-item + .drop-selector-list-item {
-      border-top: 1px solid #ededed;
+      border-top: 1px solid $color-grey-20;
     }
   }
 

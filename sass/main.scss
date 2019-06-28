@@ -1,14 +1,18 @@
 // Normalize the css
 @import '../node_modules/normalize.css/normalize';
 
+// Imports
+// Note that all of our token variables are pulled in from the variables that are created in token generation from Amazon Style Dictionary
+@import '_variables';
+@import '_mixins';
+@import '_media-queries';
+@import '_colors-brand';
+@import '_colors-neutral';
+@import '_colors-utility';
+@import '_colors-overlay';
+@import '_fonts';
+
 // Globals
-@import 'mixins';
-@import 'media-queries';
-@import 'colors-brand';
-@import 'colors-neutral';
-@import 'colors-utility';
-@import 'colors-overlay';
-@import 'fonts';
 @import 'globals';
 @import 'forms';
 

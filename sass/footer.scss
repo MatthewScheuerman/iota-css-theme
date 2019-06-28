@@ -47,7 +47,7 @@ footer {
 
   .footer-top-content__heading {
     margin: 0;
-    color: $tealish;
+    color: $teal;
     line-height: 1.75;
   }
 }
@@ -74,7 +74,7 @@ footer {
     }
 
 
-    color: $tealish;
+    color: $teal;
     line-height: 1.75;
   }
 }
@@ -164,7 +164,7 @@ footer {
     line-height: 2;
 
     a {
-      color: $tealish;
+      color: $teal;
       @include font-size(15px);
       font-weight: normal;
       text-decoration: underline;

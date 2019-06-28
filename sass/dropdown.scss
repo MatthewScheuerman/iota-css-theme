@@ -12,7 +12,7 @@
   height: 60px;
   border: 1px solid $white;
   border-radius: 6px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: $white;//rgba(255, 255, 255, 0.1); // not sure why this wasn't defined with $white
   line-height: 1;
 
   @include phone-down {
@@ -55,11 +55,11 @@
   appearance: none;
 
   option {
-    color: $black;
+    color: $dark-grey;
   }
 
   optgroup {
-    color: $gunmetal-grey;
+    color: $grey-steel;
   }
 
   // Remove the down arrow on Edge

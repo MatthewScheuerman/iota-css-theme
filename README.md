@@ -2,7 +2,7 @@
 
 Matthew Scheuerman's notes: I will be adding a json based token generator, adding components, suggesting naming changes,and potentially suggesting theming and night/dark mode. 
 
-The rest of the README is as before. 
+The rest of the README is as before, with the exception of adding a few NPM commands 
 
 ## Usage
 

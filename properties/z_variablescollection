@@ -2,13 +2,24 @@ Another note for package.json
 
  // npm install -D style-dictionary
     // Do we need gulp? ran npm install gulp
+    // Also ran npm install gulp-shell
 
+1. change $black in the system to reflect the actual variable and change black to #000000/black
+2. copy all variables into amazon style dictionary
+3. put components into their own folders so that they can have their own mixins/variable files? May or may not do this. 
+4. include visualization colors
 
 
 variables collection before converting to Amazon Style Dictionary
 
+MQ's? 
 $min-width: 375px;
 $max-width: 1495px;
+
+$phone-width: 514px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+$desktop-narrow-width: 1180px;
 
 $transition-duration: 0.3s;
 $transition-duration-quick: 0.1s;
@@ -22,20 +33,20 @@ border-color: $white;
 background-color: rgba(255, 255, 255, 0.2);
 
 
-    color: $gunmetal-grey;
+    color: $color-grey-steel;
 
-    $tealish: #20a49d;
+    $teal: #20a49d;
 $jade: #1e9a93;
 $blueberry: #603f98;
 
 body {
-  --tealish: #{$tealish};
+  --teal: #{$teal};
   --jade: #{$jade};
   --blueberry: #{$blueberry};
 }
 
-.tealish {
-  color: $tealish;
+.teal {
+  color: $teal;
 }
 
 .jade {
@@ -46,8 +57,8 @@ body {
   color: $blueberry;
 }
 
-.tealish-background {
-  background-color: $tealish;
+.teal-background {
+  background-color: $teal;
 }
 
 .jade-background {
@@ -58,11 +69,16 @@ body {
   background-color: $blueberry;
 }
 
-$black: #1c1e21;
-$white: #ffffff;
-$gunmetal-grey: #3f3f3f;
-$body-copy: #4f4f4f;
-$brown-grey: #8e8e8e;
-$dark-grey: #1c1e21;
-$light-grey: #c4c4c4;
-$sand-grey: #f3f2f1;
+
+// $teal: #20a49d;
+// $jade: #1e9a93;
+// $blueberry: #603f98;
+
+// $black: #1c1e21;
+// $white: #ffffff;
+// $color-grey-steel: #3f3f3f;
+// $body-copy-onlt: #4f4f4f;
+// $brown-grey: #8e8e8e;
+// $dark-grey: #1c1e21;
+// $light-grey: #c4c4c4;
+// $sand-grey: #f3f2f1;

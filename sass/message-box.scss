@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: row;
   padding: 25px 20px;
-  border: 1px solid $black;
+  border: 1px solid $dark-grey;
   border-radius: 6px;
   background: #060606;
 
@@ -35,7 +35,7 @@
 
       @include font-size(16.8px);
 
-      color: $black;
+      color: $dark-grey;
       font-weight: 600;
       line-height: 1;
     }

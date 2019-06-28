@@ -30,7 +30,7 @@
 
 .project__heading {
   margin: 0;
-  color: $tealish;
+  color: $teal;
 }
 
 .project__subheading {
@@ -76,7 +76,7 @@
 
 
     .project-topic__heading {
-      color: $gunmetal-grey;
+      color: $grey-steel;
       font-weight: 600;
       line-height: 2;
 
@@ -96,7 +96,7 @@
 
       &.project-topic__secondary-bullet {
         &::before {
-          background: $tealish;
+          background: $teal;
         }
       }
     }

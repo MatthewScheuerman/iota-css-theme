@@ -21,6 +21,16 @@
 //
 // Styleguide Atoms.Button
 
+// TKTKTK MATTHEW NOTES
+// use c-button at a later time instead? This is so that  
+// .#{$componentnaming}-button {
+// @include iota-button-base();
+// create a @mixin iota-button-base in _mixin folder ? or keep it simple?
+
+// 
+// 
+
+
 .button {
   display: inline-block;
   margin: 8px;
@@ -36,6 +46,10 @@
   line-height: 1.5;
   text-decoration: none;
   text-transform: uppercase;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  user-select: none;
+  outline: none;
 
   &.button--long {
     @include word-break;
@@ -52,8 +66,9 @@
 
   &:focus {
     &:enabled {
-      // TKTKTK MATTHEW NOT A11Y COMPATIBLE
-      outline: none;
+      // TKTKTK MATTHEW: Edited to meet A11Y guidelines
+      // SEE https://davatron5000.github.io/a11y-nutrition-cards
+      outline: 2px solid #ffffff;
     }
   }
 
@@ -86,6 +101,26 @@
 
   &:hover {
     &:not([disabled]) {
+      // TKTKTK MATTHEW NEED OPIONONATED COLORS
+      border-color: darken($blueberry, 10%);
+      background-color: darken($blueberry, 10%);
+    }
+  }
+}
+
+// TKTKTK MATTHEW, NOTE: BELOW I HAVE ADDED "GHOST BUTTONS SO 
+// THEY ARE NOT CONFUSED WITH SECONDARY AND TERTIARY BUTTONS THAT
+// MAY BE NEEDED TO BE CHANGED IN THE FUTURE. IT'S IMPORTANT TO ONLY USE 
+// THESE WHEN AA OR AAA COMPLIANCY WILL ALLOW THEM TO PASS
+
+.button__ghost--primary {
+  border-color: $blueberry;
+  background-color: transparent;
+  color: $white;
+
+  &:hover {
+    &:not([disabled]) {
+      // TKTKTK MATTHEW NEED OPIONONATED COLORS
       border-color: darken($blueberry, 10%);
       background-color: darken($blueberry, 10%);
     }
@@ -99,13 +134,42 @@
 
   &:hover {
     &:not([disabled]) {
+      // TKTKTK MATTHEW NEED OPIONONATED COLORS      
       border-color: darken($blueberry, 10%);
       background-color: transparent;
     }
   }
 }
 
+.button__ghost--secondary {
+  border-color: $blueberry;
+  background-color: transparent;
+  color: $blueberry;
+
+  &:hover {
+    &:not([disabled]) {
+      // TKTKTK MATTHEW NEED OPIONONATED COLORS      
+      border-color: darken($blueberry, 10%);
+      background-color: transparent;
+    }
+  }
+}
+
+
 .button--tertiary {
+  border-color: $white;
+  background-color: transparent;
+  color: $white;
+
+  &:hover {
+    &:not([disabled]) {
+      border-color: $white;
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  }
+}
+
+.button__ghost--tertiary {
   border-color: $white;
   background-color: transparent;
   color: $white;

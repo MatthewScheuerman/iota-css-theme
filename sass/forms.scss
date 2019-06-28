@@ -75,7 +75,7 @@ $common-label-width: 150px;
         border-radius: 5px;
         outline: none;
         background-color: $white;
-        color: $black;
+        color: $dark-grey;
 
         @include phone-down {
           padding: 10px;
@@ -89,12 +89,12 @@ $common-label-width: 150px;
 
         &:read-only {
           background-color: lighten($light-grey, 15%);
-          color: $black;
+          color: $dark-grey;
         }
 
         &:disabled {
           background-color: lighten($light-grey, 15%);
-          color: $black;
+          color: $dark-grey;
         }
       }
 
@@ -117,7 +117,7 @@ $common-label-width: 150px;
 
       &:read-only {
         background-color: lighten($light-grey, 15%);
-        color: $black;
+        color: $dark-grey;
       }
     }
 
@@ -130,7 +130,7 @@ $common-label-width: 150px;
       background-color: $white !important;
 
       &::after {
-        color: $gunmetal-grey !important;
+        color: $grey-steel !important;
       }
 
       @include phone-down {
@@ -166,11 +166,11 @@ $common-label-width: 150px;
       @extend %select-base;
 
       max-width: none !important;
-      color: $black !important;
+      color: $dark-grey !important;
 
       &:disabled {
         background-color: lighten($light-grey, 15%);
-        color: $black;
+        color: $dark-grey;
       }
 
       @include phone-down {

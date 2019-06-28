@@ -10,7 +10,7 @@ textarea,
   padding: 25px;
   border: 1px solid $light-grey;
   border-radius: 5px;
-  color: $body-copy;
+  color: $body-copy-onlt;
   resize: none;
 
   &:focus {
@@ -23,7 +23,8 @@ textarea,
   }
 
   &:disabled {
+    // TKTKTK MATTHEW SHOULD USE AN ACTUAL TOKEN VALUE
     background-color: lighten($light-grey, 15%);
-    color: $black;
+    color: $dark-grey;
   }
 }

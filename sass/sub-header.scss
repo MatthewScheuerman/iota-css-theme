@@ -15,7 +15,7 @@
     align-items: center;
     justify-content: space-around;
     padding: 15px 16px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: $white; // rgba(255, 255, 255, 0.1); // not sure why white isn't being used
     color: $white;
 
     @include tablet-up {

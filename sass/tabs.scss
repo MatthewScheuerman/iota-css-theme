@@ -18,7 +18,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 8px 12px 8px 12px;
-    background-color: $gunmetal-grey;
+    background-color: $grey-steel;
 
     .tab-header-list {
       display: inline-flex;
@@ -70,7 +70,7 @@
         transition: $transition-duration ease-out;
         transition-property: opacity;
         opacity: 0;
-        color: $tealish;
+        color: $teal;
         text-align: right;
       }
 

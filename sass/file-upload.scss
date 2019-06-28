@@ -14,7 +14,7 @@
 
   @include font-size(19px);
 
-  color: $black;
+  color: $dark-grey;
   font-style: normal;
   font-weight: bold;
 }
@@ -28,7 +28,7 @@
   border: 2px dashed $light-grey;
   border-radius: 10px;
   background-color: $sand-grey;
-  color: $black;
+  color: $dark-grey;
 
   @include font-size(14.5px);
 
