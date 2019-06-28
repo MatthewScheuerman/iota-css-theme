@@ -1,1 +1,0 @@
-Testing to make sure my github settings are working correctly after using an i3 install script that changed my settings.

@@ -3,14 +3,22 @@
 // The neutral colors for IOTA branding.
 //
 // Colors:
-// $black: #1c1e21 - Black
+// $black: #000000 - Black
 // $white: #ffffff - White
-// $gunmetal-grey: #3f3f3f - Gunmetal Grey
-// $body-copy: #696f76 - Body copy
-// $brown-grey: #8e8e8e - Brown Grey
+// $grey-steel: #3f3f3f - Grey Steel
+// $grey-steel-40: #4f4f4f; Grey Steel-40
 // $dark-grey: #1c1e21 - Dark Grey
-// $light-grey: #c4c4c4 - Light Gray
+// $body-copy-onlt: #696f76 - Body copy On Light
+// $brown-grey: #8e8e8e - Brown Grey
+// $light-grey: #c4c4c4 - Light Grey
 // $sand-grey: #f3f2f1 - Sand Grey
+// $grey-10: #fafafa - Grey-10
+// $grey-15: #f6f6f6 - Grey-15
+// $grey-20: #ededed - Grey-20
+// $grey-22: #e6e6e6 - Grey-22
+// $grey-30: #c4c4c4 - Grey-30
+// $grey-60: #3f3f3f - Grey-60
+// $grey-75: #2e2e2e - Grey75
 //
 // Styleguide Atoms.Colors Neutral
 
@@ -26,7 +34,11 @@ $light-grey: $color-grey-30 !default;
 $sand-grey: $color-grey-warm-30 !default;
 
 // TKTKTK MATTHEW NEED TO DEFINE THE REST OF THE COLORS HERE
+// $grey-steel-40: #4f4f4f; Grey Steel-40
+// $color-grey-10: #fafafa; 
+// $color-grey-15: #f6f6f6;
+// $color-grey-20: #ededed;
+// $color-grey-22: #e6e6e6;
+// $color-grey-30: #c4c4c4;
 $grey-60: $color-grey-60 !default;
-
-
-
+// $color-grey-75: #2e2e2e;

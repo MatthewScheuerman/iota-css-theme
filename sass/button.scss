@@ -22,6 +22,8 @@
 // Styleguide Atoms.Button
 
 // TKTKTK MATTHEW NOTES
+// removed the ghost buttons I added but might add other brand colored buttons,
+// The IF needs to decide if it wants these though.
 // use c-button at a later time instead? This is so that  
 // .#{$componentnaming}-button {
 // @include iota-button-base();
@@ -104,40 +106,8 @@
   }
 }
 
-// TKTKTK MATTHEW, NOTE: BELOW I HAVE ADDED "GHOST BUTTONS SO 
-// THEY ARE NOT CONFUSED WITH SECONDARY AND TERTIARY BUTTONS THAT
-// MAY BE NEEDED TO BE CHANGED IN THE FUTURE. IT'S IMPORTANT TO ONLY USE 
-// THESE WHEN AA OR AAA COMPLIANCY WILL ALLOW THEM TO PASS
-
-.button__ghost--primary {
-  border-color: $blueberry;
-  background-color: transparent;
-  color: $white;
-
-  &:hover {
-    &:not([disabled]) {
-      // TKTKTK MATTHEW NEED OPIONONATED COLORS
-      border-color: darken($blueberry, 10%);
-      background-color: darken($blueberry, 10%);
-    }
-  }
-}
 
 .button--secondary {
-  border-color: $blueberry;
-  background-color: transparent;
-  color: $blueberry;
-
-  &:hover {
-    &:not([disabled]) {
-      // TKTKTK MATTHEW NEED OPIONONATED COLORS      
-      border-color: darken($blueberry, 10%);
-      background-color: transparent;
-    }
-  }
-}
-
-.button__ghost--secondary {
   border-color: $blueberry;
   background-color: transparent;
   color: $blueberry;
@@ -165,18 +135,6 @@
   }
 }
 
-.button__ghost--tertiary {
-  border-color: $white;
-  background-color: transparent;
-  color: $white;
-
-  &:hover {
-    &:not([disabled]) {
-      border-color: $white;
-      background-color: rgba(255, 255, 255, 0.2);
-    }
-  }
-}
 
 .button--no-case {
   text-transform: none;

@@ -308,7 +308,7 @@ template {
 
 /**
  * Do not edit directly
- * Generated on Fri, 28 Jun 2019 07:47:40 GMT
+ * Generated on Fri, 28 Jun 2019 18:31:21 GMT
  */
 @media (max-width: 1024px) {
   .desktop-up-hidden {
@@ -683,14 +683,6 @@ blockquote,
     border-color: #493074;
     background-color: #493074; }
 
-.button__ghost--primary {
-  border-color: #603f98;
-  background-color: transparent;
-  color: #ffffff; }
-  .button__ghost--primary:hover:not([disabled]) {
-    border-color: #493074;
-    background-color: #493074; }
-
 .button--secondary {
   border-color: #603f98;
   background-color: transparent;
@@ -699,27 +691,11 @@ blockquote,
     border-color: #493074;
     background-color: transparent; }
 
-.button__ghost--secondary {
-  border-color: #603f98;
-  background-color: transparent;
-  color: #603f98; }
-  .button__ghost--secondary:hover:not([disabled]) {
-    border-color: #493074;
-    background-color: transparent; }
-
 .button--tertiary {
   border-color: #ffffff;
   background-color: transparent;
   color: #ffffff; }
   .button--tertiary:hover:not([disabled]) {
-    border-color: #ffffff;
-    background-color: rgba(255, 255, 255, 0.2); }
-
-.button__ghost--tertiary {
-  border-color: #ffffff;
-  background-color: transparent;
-  color: #ffffff; }
-  .button__ghost--tertiary:hover:not([disabled]) {
     border-color: #ffffff;
     background-color: rgba(255, 255, 255, 0.2); }
 
@@ -769,7 +745,7 @@ blockquote,
   height: 60px;
   border: 1px solid #ffffff;
   border-radius: 6px;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
   line-height: 1; }
   @media (max-width: 514px) {
     .form .fieldset .select-wrapper, .select-wrapper {
@@ -2391,7 +2367,7 @@ textarea,
     align-items: center;
     justify-content: space-around;
     padding: 15px 16px;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
     color: #ffffff; }
     @media (min-width: 768px) {
       .sub-header__wrapper .sub-header {
