@@ -1,6 +1,5 @@
 // Side Menu
 //
-// Side menu TKTKTK NOTE FROM MATTHEW... Contrast needs to be checked for a11y compliancy 
 //
 // Markup: html/side-menu.html
 //
@@ -46,11 +45,6 @@ $side-menu-right-padding: 24px;
   }
 }
 
-.side-menu__group {
-  margin-bottom: 2px;
-  background: rgba(255, 255, 255, 0.05);
-}
-
 .side-menu__caption {
   display: flex;
   align-items: center;
@@ -61,144 +55,191 @@ $side-menu-right-padding: 24px;
   color: $white;
 
   @include font-size(24px);
-}
 
-.side-menu__heading {
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: space-between;
-  height: 55px;
-  margin: 0;
-  padding: 0 $side-menu-right-padding 0 $side-menu-left-padding;
-  background-color: rgba(255, 255, 255, 0.1);
-  color: $white;
+  .side-menu__close {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    transition: opacity $transition-duration ease;
+    border: 0;
+    background: none;
+    color: $white;
 
-  @include font-size(17px);
-
-  font-weight: 600;
-  text-decoration: none;
-  cursor: pointer;
-
-  &::before {
-    @extend %icon-chevron-down;
-
-    position: absolute;
-    top: calc(50% - 9px);
-    right: 28px;
-
-    @include icon(16px);
-  }
-
-  &:hover {
-    text-decoration: none;
-  }
-}
-
-.side-menu__group--selected {
-  .side-menu__heading {
-    color: $teal;
-  }
-}
-
-.side-menu__group--expanded {
-  .side-menu__heading {
     &::before {
-      @extend %icon-chevron-up;
+      @extend %icon-cross;
+
+      position: absolute;
+      top: 0px;
+      left: 0px;
+
+      @include icon(18px);
+    }
+
+    &:hover {
+      &:not([disabled]) {
+        @include phone-up {
+          opacity: 0.5;
+        }
+
+
+        cursor: pointer;
+      }
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.side-menu__group {
+  margin-bottom: 2px;
+  background: rgba(255, 255, 255, 0.05);
+
+  .side-menu__heading {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    margin: 0;
+    padding: 0 $side-menu-right-padding 0 $side-menu-left-padding;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: $white;
+
+    @include font-size(17px);
+
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+
+    &::before {
+      @extend %icon-chevron-down;
+
+      position: absolute;
+      top: calc(50% - 9px);
+      right: 28px;
 
       @include icon(16px);
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &.side-menu__group--selected {
+    .side-menu__heading {
+      color: $tealish;
+    }
+  }
+
+  &.side-menu__group--expanded {
+    .side-menu__heading {
+      &::before {
+        @extend %icon-chevron-up;
+
+        @include icon(16px);
+      }
+    }
+
+    .side-menu__list {
+      height: auto;
+      padding: 20px 16px 0px 16px;
     }
   }
 
   .side-menu__list {
-    height: auto;
-    padding: 20px 16px 0px 16px;
-  }
-}
+    height: 0;
+    margin: 0px;
+    padding: 0 16px 0 16px;
+    overflow: hidden;
+    transition: $transition-duration ease;
+    transition-property: padding, transform, height;
+    color: $white;
 
-.side-menu__close {
-  position: relative;
-  width: 20px;
-  height: 20px;
-  transition: opacity $transition-duration ease;
-  border: 0;
-  background: none;
-  color: $white;
+    .side-menu__sub-list {
+      padding: 0px 0px 0px 16px;
 
-  &::before {
-    @extend %icon-cross;
-
-    position: absolute;
-    top: 0px;
-    left: 0px;
-
-    @include icon(18px);
-  }
-
-  &:hover {
-    &:not([disabled]) {
-      @include phone-up {
-        opacity: 0.5;
+      ul {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding: 0px 0px 5px 0px;
       }
-      cursor: pointer;
-    }
-  }
 
-  &:focus {
-    outline: none;
-  }
-}
+      .side-menu-item__header {
+        padding-bottom: 6px;
 
-.side-menu-item__header {
-  padding-bottom: 6px;
-  @include font-size(14px);
-  font-weight: 600;
-  text-transform: uppercase;
-}
+        @include font-size(14px);
 
-.side-menu__sub-list {
-  padding: 0px 0px 0px 16px;
-
-  ul {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    padding: 0px 0px 5px 6px;
-  }
-}
-
-.side-menu__list {
-  height: 0;
-  margin: 0px;
-  padding: 0 16px 0 16px;
-  overflow: hidden;
-  transition: $transition-duration ease;
-  transition-property: padding, transform, height;
-  color: $white;
-
-  .side-menu-item {
-    margin-bottom: 7px;
-    list-style: none;
-    line-height: 1.3;
-
-    a {
-      color: $white;
-      @include font-size(15px);
-      font-weight: 300;
-      text-decoration: underline;
-
-      @include desktop {
-        text-decoration: none;
+        font-weight: 600;
+        text-transform: uppercase;
       }
-    }
 
-    &:hover {
-      text-decoration: underline;
-      cursor: pointer;
-    }
+      .side-menu-item {
+        margin-bottom: 7px;
+        list-style: none;
+        line-height: 1.3;
 
-    .side-menu-item--active {
-      color: $teal;
-      font-weight: 600;
+        .side-menu__item-superscript {
+          @include font-size(10px);
+
+          margin-left: 5px;
+        }
+
+        a {
+          display: flex;
+          color: $white;
+
+          @include font-size(15px);
+
+          font-weight: 300;
+          text-decoration: underline;
+
+          @include desktop {
+            text-decoration: none;
+          }
+
+
+          &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+          }
+        }
+
+        &.side-menu-item--active {
+          color: $tealish;
+          font-weight: 600;
+
+          a {
+            color: $tealish;
+            font-weight: 600;
+          }
+        }
+
+        .side-menu-item-sub {
+          margin: 0;
+          padding: 10px 0px 3px 14px;
+          list-style-type: none;
+
+          .side-menu-item-sub-child {
+            margin-bottom: 6px;
+            line-height: 1;
+
+            a {
+              color: $white;
+              font-weight: normal;
+            }
+
+            &.side-menu-item-sub-child--active {
+              a {
+                color: $tealish;
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
