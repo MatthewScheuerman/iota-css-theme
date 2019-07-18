@@ -308,7 +308,7 @@ template {
 
 /**
  * Do not edit directly
- * Generated on Fri, 28 Jun 2019 18:31:21 GMT
+ * Generated on Fri, 28 Jun 2019 22:07:52 GMT
  */
 @media (max-width: 1024px) {
   .desktop-up-hidden {
@@ -3978,3 +3978,111 @@ footer {
     @media (min-width: 514px) {
       .sticky-header.sticky-header--expanded .sticky-header__control .input-sticky-wrapper .sticky-header__icon-close:hover {
         opacity: 0.5; } }
+
+.theme-default .chart .color {
+  color: #41dcf3; }
+
+.theme-default .box .bg {
+  color: #052132; }
+
+.theme-default .box .alt {
+  color: #043451; }
+
+.theme-default .box .body {
+  color: #f0f2f6; }
+
+.theme-default .bar .bg {
+  color: #141725; }
+
+.theme-default .bar .hover {
+  color: #192733; }
+
+.theme-default .bar .alt {
+  color: #213343; }
+
+.theme-default .bar .color {
+  color: #f0f2f6; }
+
+.theme-default .label .color {
+  color: #f0f2f6; }
+
+.theme-default .label .hover {
+  color: #41dcf3; }
+
+.theme-default .label input .bg {
+  color: #0f3e58; }
+
+.theme-default .label input .border {
+  color: rgba(255, 255, 255, 0.1); }
+
+.theme-default .label input .alt {
+  color: #94a8ac; }
+
+.theme-default .label input .hover {
+  color: rgba(255, 255, 255, 0.4); }
+
+.theme-default .label input .color {
+  color: white; }
+
+.theme-default .label .negative .color {
+  color: #ac4545; }
+
+.theme-default .label .negative .hover {
+  color: #923939; }
+
+.theme-default .label .negative .body {
+  color: white; }
+
+.theme-default .label .positive .color {
+  color: #249357; }
+
+.theme-default .label .positive .hover {
+  color: #1f7e4a; }
+
+.theme-default .label .positive .body {
+  color: white; }
+
+.theme-default .label .dark .color {
+  color: #062332; }
+
+.theme-default .label .dark .hover {
+  color: #071e27; }
+
+.theme-default .label .dark .body {
+  color: #f0f2f6; }
+
+.theme-default .label .secondary .color {
+  color: #d0dcee; }
+
+.theme-default .label .secondary .hover {
+  color: #c0cde1; }
+
+.theme-default .label .secondary .body {
+  color: #1e1e1e; }
+
+.theme-default .label .primary .color {
+  color: #41dcf3; }
+
+.theme-default .label .primary .hover {
+  color: #00cdeb; }
+
+.theme-default .label .primary .border {
+  color: rgba(255, 255, 255, 0); }
+
+.theme-default .label .primary .body {
+  color: #003241; }
+
+.theme-default .label .body .bg {
+  color: #03293e; }
+
+.theme-default .label .body .color {
+  color: #f0f2f6; }
+
+.theme-default .label .body .alt {
+  color: #3d5b6b; }
+
+.theme-default .label .wave .primary {
+  color: rgba(49, 94, 119, 0.3); }
+
+.theme-default .label .wave .secondary {
+  color: rgba(11, 27, 31, 0.6); }

@@ -1,0 +1,63 @@
+
+//#8e1290;
+// $color-brand-blueberry-55: #4e2c88;
+// $color-brand-blueberry-base: #603f98;
+.chart { 
+    //#8e1290;
+    $color1: rgb(142, 18, 144);
+}
+.box {
+    $color2: rgb(255, 255, 255);
+    $color3: rgb(215, 220, 231);
+    //#000000
+    $color4: rgb(0, 0, 0);
+}
+.bar {
+    // dark blue
+    $color5: rgb(28, 32, 47); 
+    //#000000
+    $color6: rgb(0, 0, 0);
+    // another dark blue
+    $color7: rgb(18, 19, 26);
+    // light blue?
+    $color8: rgb(240, 242, 246);
+}
+.label {
+    $color9: rgb(0, 0, 0);
+    // another blueberry
+    $color10: rgb(117, 38, 119);
+}
+
+.input {
+    .bg { color: rgb(242, 242, 242);} 
+    .alt { color: rgb(114, 114, 114);}
+    .hover { color: rgba(0, 0, 0, 0.4);}
+    // dark grey
+    .color { color: rgb(30, 30, 30);}
+}
+
+//     .negative { color 'rgb(219, 112, 59)', hover 'rgb(155, 0, 13)', body 'rgb(255, 255, 255)' },
+//     .positive { color 'rgb(85, 160, 91)', hover 'rgb(24, 91, 72)', body 'rgb(255, 255, 255)' },
+//     .dark { color 'rgb(209, 212, 217)', hover 'rgb(192, 195, 200)', body 'rgb(0, 0, 0)' },
+//     .secondary { color 'rgb(85, 20, 180)', hover 'rgb(69, 16, 146)', body 'rgb(255, 255, 255)' },
+   .primary {
+        .color { color: rgb(142, 18, 144); }
+        .border: 'rgba(255, 255, 255, 0)',
+        .hover: 'rgb(124, 16, 125)',
+        .body: 'rgb(255, 255, 255)',
+    }
+//     body { bg 'rgb(234, 237, 243)', color 'rgb(0, 0, 0)', alt 'rgba(0, 0, 0, 0.25)' },
+//     wave { primary 'rgba(85, 20, 180, 0.5)', secondary 'rgba(63, 89, 108, 0.15)' },
+//     isDark false,
+//     animations [
+//         'body.color',
+//         'body.bg',
+//         'rgb(145,145,145)',
+//         'primary.color',
+//         'secondary.color',
+//         'dark.color',
+//         'secondary.hover',
+//         'input.alt',
+//         'dark.hover',
+//         'label.color',
+//         'primary.body',

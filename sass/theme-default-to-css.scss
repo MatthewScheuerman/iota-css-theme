@@ -1,0 +1,138 @@
+$color-brand-teal-base: #20a49d;
+$color-brand-jade-base: #1e9a93;
+$color-brand-blueberry-55: #4e2c88;
+$color-brand-blueberry-base: #603f98;
+$color-grey-10: #fafafa;
+$color-grey-15: #f6f6f6;
+$color-grey-20: #ededed;
+$color-grey-22: #e6e6e6;
+$color-grey-30: #c4c4c4;
+$color-grey-60: #3f3f3f;
+$color-grey-75: #2e2e2e;
+$color-grey-steel: #3f3f3f;
+$color-grey-steel-40: #4f4f4f;
+$color-grey-warm: #8e8e8e;
+$color-grey-warm-30: #f3f2f1;
+$color-grey-cool-80: #1c1e21;
+$color-feedback-yellow: #ffc107;
+$color-feedback-red: #dc3545;
+$color-feedback-green: #28a745;
+$color-feedback-blue: #17a2b8;
+$device-width-phone: 514px;
+$device-width-tablet: 768px;
+$device-width-desktop: 1024px;
+$device-width-desktop-narrow: 1180px;
+
+
+// SEEMS LIKE THIS IS THE LINE CHART COLOR
+.theme-default .chart .color {
+  color: #41dcf3; }
+// SEEMS LIKE THIS IS THE MAIN BACKGROUND COLOR... SO #000000?
+.theme-default .box .bg {
+  color: #052132; }
+// ???
+.theme-default .box .alt {
+  color: #043451; }
+
+  // TRY #CCCCCC ?
+.theme-default .box .body {
+  color: #f0f2f6; 
+}
+
+  // DARKEST currently...MAKE THIS #333333
+.theme-default .bar .bg {
+  color: #141725; }
+// selected?
+.theme-default .bar .hover {
+  color: #192733; }
+// selected
+.theme-default .bar .alt {
+  color: #213343; }
+// icon color
+.theme-default .bar .color {
+  color: #f0f2f6; }
+
+.theme-default .label .color {
+  color: #f0f2f6; }
+// SEND BUTTON
+.theme-default .label .hover {
+  color: #41dcf3; }
+// FORM FIELDS BACKGROUND
+.theme-default .label input .bg {
+  color: #0f3e58; }
+// for my theme lighten this
+.theme-default .label input .border {
+  color: rgba(255, 255, 255, 0.1); }
+
+.theme-default .label input .alt {
+  color: #94a8ac; }
+
+.theme-default .label input .hover {
+  color: rgba(255, 255, 255, 0.4); }
+
+.theme-default .label input .color {
+  color: white; }
+
+.theme-default .label .negative .color {
+  color: #ac4545; }
+
+.theme-default .label .negative .hover {
+  color: #923939; }
+
+.theme-default .label .negative .body {
+  color: white; }
+
+.theme-default .label .positive .color {
+  color: #249357; }
+
+.theme-default .label .positive .hover {
+  color: #1f7e4a; }
+
+.theme-default .label .positive .body {
+  color: white; }
+
+.theme-default .label .dark .color {
+  color: #062332; }
+
+.theme-default .label .dark .hover {
+  color: #071e27; }
+
+.theme-default .label .dark .body {
+  color: #f0f2f6; }
+
+.theme-default .label .secondary .color {
+  color: #d0dcee; }
+
+.theme-default .label .secondary .hover {
+  color: #c0cde1; }
+
+.theme-default .label .secondary .body {
+  color: #1e1e1e; }
+
+.theme-default .label .primary .color {
+  color: #41dcf3; }
+
+.theme-default .label .primary .hover {
+  color: #00cdeb; }
+
+.theme-default .label .primary .border {
+  color: rgba(255, 255, 255, 0); }
+
+// darker
+.theme-default .label .primary .body {
+  color: #003241; }
+// lighter
+.theme-default .label .body .bg {
+  color: #03293e; }
+
+.theme-default .label .body .color {
+  color: #f0f2f6; }
+
+.theme-default .label .body .alt {
+  color: #3d5b6b; }
+
+.theme-default .label .wave .primary {
+  color: rgba(49, 94, 119, 0.3); }
+
+.theme-default .label .wave .secondary {
+  color: rgba(11, 27, 31, 0.6); }
